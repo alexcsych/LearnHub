@@ -50,14 +50,22 @@ function Banner () {
       >
         Sorry, your browser doesn't support embedded videos.
       </video> */}
-
-      <div
-        className={styles.textOverlay}
-        data-aos='fade-right'
-        data-aos-delay='200'
-      >
-        <p className={styles.text}>Выучите что-нибуть новое</p>
-        <span>{text}</span>|
+      <div className={styles.content}>
+        <div
+          className={styles.textOverlay}
+          data-aos='fade-right'
+          data-aos-delay='200'
+        >
+          <p className={styles.text}>Выучите что-нибуть новое</p>
+          <span>{text}</span>|
+        </div>
+        <img
+          data-aos='fade-left'
+          data-aos-delay='500'
+          className={styles.img}
+          src='/images/EduOnline-white.png'
+          alt='EduOnline-white'
+        />
       </div>
 
       <div className={styles.backgroundShapes}></div>
